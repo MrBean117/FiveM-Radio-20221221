@@ -1,0 +1,244 @@
+{
+    "pluginStatus": true,
+    "isPaid": true,
+    "communityName": "High Priority RolePlay",
+    "betaCommunity": false,
+    "features": {
+        "inGameInterface": true,
+        "rangeSimulation": true,
+        "emergencyHotline": false
+    },
+    "talkAroundRange": 1500,
+    "betaServerGroups": [""],
+    "dispatchServerGroups": ["34"],
+    "dispatchAdvancedServerGroups": [],
+    "dispatchNameTags": [
+        "(P)",
+        "(S)",
+        "(T)",
+        "(FIRE)",
+        "(QA)",
+        "(EVAL)",
+        "[P]",
+        "[S]",
+        "[T]",
+        "[FIRE]",
+        "[QA]",
+        "[EVAL]"
+    ],
+    "civilianServerGroups": [""],
+    "civChannels": [0],
+    "radioSystems": [115],
+    "rtoChannels": [103],
+    "radioChannels": [
+        {
+            "id": 1,
+            "name": "Patrol Ops North",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=green]Patrol Ops North[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 2,
+            "name": "Patrol Ops South",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=green]Patrol Ops South[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 3,
+            "name": "North Secure",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=purple]North Secure[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 4,
+            "name": "South Secure",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=purple]South Secure[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 5,
+            "name": "TAC 1",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=cyan]TAC 1[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 6,
+            "name": "TAC 2",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=cyan]TAC 2[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 7,
+            "name": "Car/Car",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=grey]Car/Car[/color]",
+            "talkEnforcement": true,
+            "talkAround": true,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 8,
+            "name": "Training",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=yellow]Training[/color]",
+            "talkEnforcement": true,
+            "talkAround": true,
+            "scannable": false,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 9,
+            "name": "Senora Valley Fire Ops",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=red]Senora Valley Fire Ops[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 10,
+            "name": "Los Santos Fire Radio",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=red]Los Santos Fire Radio[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 11,
+            "name": "Fireground 1",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=red]Fireground 1[/color]",
+            "talkEnforcement": true,
+            "talkAround": true,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 12,
+            "name": "Fireground 2",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=red]Fireground 2[/color]",
+            "talkEnforcement": true,
+            "talkAround": true,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 13,
+            "name": "Security TAC 1",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=orange]Security TAC 1[/color]",
+            "talkEnforcement": true,
+            "talkAround": true,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 14,
+            "name": "Tow Services 1",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=orange]Tow Services 1[/color]",
+            "talkEnforcement": true,
+            "talkAround": true,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        }
+    ],
+    "time_settings": {
+        "emergencyOverridePeriod": 10,
+        "emergencyCooldown": 30,
+        "emergencyOtherCooldown": 20,
+        "dispatchToneCooldown": 15,
+        "radioStunCooldown": 5,
+        "radioPingCooldown": 10,
+        "911Cooldown": 30,
+        "commandStunPeriod": 300,
+        "toneWaitTalkPeriod": 5
+    },
+    "permissions": {
+        "permBasic": {
+            "serverGroupList": ["14"],
+            "clientUidList": [""]
+        },
+        "permExtra": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        },
+        "permSit": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        },
+        "permStaff": {
+            "serverGroupList": ["12"],
+            "clientUidList": [""]
+        },
+        "permSenior": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        },
+        "permAdmin": {
+            "serverGroupList": ["11"],
+            "clientUidList": [""]
+        },
+        "permSuper": {
+            "serverGroupList": ["10"],
+            "clientUidList": [""]
+        }
+    }
+}
